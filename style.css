@@ -1,0 +1,74 @@
+body{
+  background-color: pink;
+  color: white;
+  margin: 6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+  h1{
+    text-align: center;
+    animation: colora 10s ease-in-out infinite;}
+  }
+}
+/*Bubbles*/
+.bubbles {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1fae7.png) 36 36, auto;
+}
+/*mirror*/
+.mirror {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1fa9e.png) 36 36, auto;
+}
+/*Brush*/
+.brush {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f58c.png) 36 36, auto;
+}
+section{
+  display:flex;
+  padding: 2rem;
+}
+figure{
+  display:flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+}
+img{
+  width: 800px;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*Color changing animation*/
+@keyframes colora {
+  0% {color: #40E0D0;}
+  20% {color:#48D1CC;}
+  40% {color:#3CB371;}
+  60% {color:#66CDAA;}
+  80% {color:#00FA9A;}
+  100% {color:#40E0D0;}
+}
+button{
+  background-color: orchid;
+  color: SlateBlue;
+  padding: 10px;
+  font-family: "Montserrat";
+}
